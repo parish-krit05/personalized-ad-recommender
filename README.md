@@ -32,8 +32,7 @@ with numpy so the core logic is fully visible and easy to explain.
 ```
 personalized-ad-recommender/
 ├── generate_data.py                 # creates the raw dataset (run first)
-├── data/
-│   └── browsing_history_raw.xlsx    # raw browsing/purchase history
+├── browsing_history_raw.xlsx        # raw browsing/purchase history
 ├── recommendations.sql              # SQL queries used in the analysis
 ├── recommender.py                   # main script — builds the model, runs SQL, exports results
 ├── recommender.db                   # SQLite database (created when you run recommender.py)
